@@ -9,6 +9,7 @@ pub fn build(b: *std.Build) void {
         "-kernel",
         b.pathJoin(&.{ "zig-out/bin", kernel }),
     }));
+    run_qemu.step.dependOn(b.default_step);
     run_step.dependOn(&run_qemu.step);
 }
 
