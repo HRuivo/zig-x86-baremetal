@@ -1,6 +1,11 @@
 # zig-x86-baremetal
 Barebones x86 kernel written in [Zig](http://ziglang.org).
 
+## Zig Version
+```
+zig 0.14.0
+```
+
 ## Build and run
 To build the kernel:
 ```
