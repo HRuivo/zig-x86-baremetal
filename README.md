@@ -1,5 +1,7 @@
 # zig-x86-baremetal
-Barebones x86 kernel written in [Zig](http://ziglang.org).
+Barebones x86 kernel written in [Zig](http://ziglang.org) with a custom build system to run in Qemu.
+
+Heavily based on the amazing Austin Hanson article. [Bare Metal Zig](https://austinhanson.com/bare-metal-ziglang/)
 
 ## Zig Version
 ```
